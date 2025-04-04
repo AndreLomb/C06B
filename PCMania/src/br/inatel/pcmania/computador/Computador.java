@@ -17,8 +17,8 @@ public class Computador {
     }
 
     public void mostraPCConfigs(){
-        System.out.println("Marca = " + this.marca);
-        System.out.println("Preço = R$ " + this.preco);
+        System.out.println("Marca: " + this.marca);
+        System.out.println("Preço: R$ " + this.preco);
         for(int i = 0; i < hardwares.length; i++){
             System.out.println(hardwares[i].nome + "-" + hardwares[i].capacidade);
         }
