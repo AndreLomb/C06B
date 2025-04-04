@@ -19,7 +19,7 @@ public class Main {
         pc1.hardwares[0] = new HardwareBasico("Pentium Core i3", 2200);
         pc1.hardwares[1] = new HardwareBasico("Memória RAM", 8);
         pc1.hardwares[2] = new HardwareBasico("HD", 500);
-        pc1.os.nome = "Linux Ubuntu"; //tá meio errado isso aí chefe
+        pc1.os.nome = "Linux Ubuntu"; 
         pc1.os.tipo = 32;
 
         MemoriaUSB musb1 = new MemoriaUSB();
@@ -112,13 +112,3 @@ public class Main {
 
     }
 }
-//System.out.println("Atualmente temos uma promoção de computadores. Veja:");
-//
-//
-//
-//        System.out.println("Promoção 1: ");
-//        pc1.mostraPCConfigs();
-//        System.out.println("Promoção 2:");
-//        pc2.mostraPCConfigs();
-//        System.out.println("Promoção 3:");
-//        pc3.mostraPCConfigs();
