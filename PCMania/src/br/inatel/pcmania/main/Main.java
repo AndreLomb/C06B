@@ -74,7 +74,7 @@ public class Main {
             System.out.println("2 - Compra PC 2");
             System.out.println("3 - Compra PC 3");
             System.out.println("0 - termina suas compras");
-            System.out.println("Faça sua escolha: ()");
+            System.out.println("Faça sua escolha: ");
 
             option = input.nextInt();
 
