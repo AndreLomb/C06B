@@ -19,7 +19,7 @@ public class Main {
         pc1.hardwares[0] = new HardwareBasico("Pentium Core i3", 2200);
         pc1.hardwares[1] = new HardwareBasico("Memória RAM", 8);
         pc1.hardwares[2] = new HardwareBasico("HD", 500);
-        pc1.os.nome = "Linux Ubuntu"; 
+        pc1.os.nome = "Linux Ubuntu";
         pc1.os.tipo = 32;
 
         MemoriaUSB musb1 = new MemoriaUSB();
