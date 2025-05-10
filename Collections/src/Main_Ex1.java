@@ -12,7 +12,17 @@ public class Main_Ex1 {
         listaDouble.add(8.42);
         listaDouble.add(50.13);
 
-        Collections.sort(listaDouble);
+        System.out.println("Fora de ordem:\n");
+
+        for(double numeros : listaDouble){
+            System.out.println(numeros);
+        }
+
+        Collections.sort(listaDouble, Collections.reverseOrder());
+
+        System.out.println("\n===============\n");
+
+        System.out.println("Em ordem. (Decrescente)");
 
         for(double numeros : listaDouble){
             System.out.println(numeros);
