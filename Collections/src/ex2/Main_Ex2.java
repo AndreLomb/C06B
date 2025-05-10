@@ -20,7 +20,7 @@ public class Main_Ex2 {
         listaArmas.sort(null);
 
         for(Arma n : listaArmas){
-            System.out.println(n.getNome());
+            System.out.println(n.getNome() + " : " + n.getQualidade());
         }
     }
 }
